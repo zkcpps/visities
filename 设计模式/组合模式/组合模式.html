@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>组合模式</title>
+    <script>
+       window.onload = function() {
+
+           //组合寄生式继承
+           function inheritPrototype(subClass, superClass) {
+               function F(){};
+               F.prototype = superClass.prototype;
+               subClass.prototype = new F();
+               subClass.prototype.constructor = subClass;
+           }
+
+           //基类
+          function Container() {
+              this.child = [];
+              this.element = null;
+          }
+          Container.prototype = {
+              init: function() {
+                  throw new Error("请重写init方法");
+              },
+              add: function(child) {
+                   this.child.push(child);
+                   this.element.appendChild(child.element);
+                   return this;
+              }
+          }
+
+          //基于容器基类创建表单容器
+           function createForm(id, method, action, parent) {
+               Container.call(this);
+               this.id = id || '';
+               this.method = method || '';
+               this.action = action || '';
+               this.parent = parent;
+
+               this.init();
+           }
+
+           inheritPrototype(createForm, Container);
+
+           createForm.prototype.init = function() {
+               this.element = document.createElement('form');
+               this.element.id = this.id;
+               this.element.method = this.method;
+               this.element.action = this.action;
+           }
+
+           createForm.prototype.show = function() {
+               this.parent.appendChild(this.element);
+           }
+
+           //行容器组件
+           function createLine(className) {
+               Container.call(this);
+               this.className = className === undefined ? 'form-line' : 'form-line' + className;
+               this.init();
+           }
+
+           inheritPrototype(createLine, Container);
+
+           createLine.prototype.init = function() {
+               this.element = document.createElement('div');
+               this.element.className = this.className;
+           }
+
+           //label
+           function createLabel(text, formName) {
+               Container.call(this);
+               this.text = text || '';
+               this.formName = formName || '';
+               this.init();
+           }
+
+           inheritPrototype(createLabel, Container);
+
+           createLabel.prototype.init = function() {
+               this.element = document.createElement('label');
+               this.element.setAttribute('for', this.forName);
+               this.element.innerHTML = this.text;
+           }
+
+           //input
+           function createInput(id, type, name, defaultValue) {
+               Container.call(this);
+               this.id = id || '';
+               this.type = type || '';
+               this.name = name || '';
+               this.name = name || '';
+               this.defaultValue = defaultValue || '';
+               this.init();
+           }
+
+           inheritPrototype(createInput, Container);
+
+           createInput.prototype.init = function() {
+               this.element = document.createElement('input');
+               this.element.id = this.id;
+               this.element.type = this.type;
+               this.element.name = this.name;
+               this.element.value = this.defaultValue;
+           }
+
+           const form = new createForm('owner-form', 'GET', '/aaa.html', document.body);
+
+           const userLine = new createLine()
+                                    .add(new createLabel('用户名', 'user'))
+                                    .add(new createInput('user', 'text', 'user'));
+           const pwdLine = new createLine()
+                                   .add(new createLabel('密码', 'pwd'))
+                                   .add(new createInput('pwd', 'password', 'pwd'));
+           const sumbitLine = new createLine()
+                                   .add(new createInput('', 'submit', '', '登录'));
+
+           form.add(userLine).add(pwdLine).add(sumbitLine);
+
+           form.show();
+       }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

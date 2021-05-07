@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex弹性盒模型</title>
+
+    <style>
+        .contain {
+            background-color: brown;
+            display: flex;
+            /*flex-direction*/
+            /*flex-direction: column;  垂直*/
+            /*flex-direction:column-reverse;  垂直倒叙*/
+            /*flex-direction: row;  水平*/
+            /*flex-direction: row-reverse;   水平倒叙*/
+            /*flex-direction: inherit;*/
+            /*flex-direction: initial;*/
+            /*flex-direction: revert;*/
+
+            justify-content: center;
+            justify-content: space-between;
+            justify-content: space-around;
+            justify-content: space-evenly;
+
+
+
+
+        }
+
+        .item {
+            width: 100px;
+            height: 200px;
+        }
+
+        .item:first-child {
+            background-color: aqua;
+        }
+
+        .item:nth-of-type(2) {
+            background-color: blue;
+        }
+
+        .item:last-child {
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+
+  <div class="contain">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+  </div>
+
+</body>
+</html>

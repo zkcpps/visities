@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行内块元素在同一行显示时有默认空隙，如何解决？</title>
+
+    <style>
+
+        div {
+            /*font-size: 0;*/
+            word-spacing: -5px;
+        }
+        span {
+            display: inline-block;
+            background-color: blue;
+            /*float: left;*/
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <!--解决办法-->
+    <!--1.将所有的行内块元素直接设置浮动，-->
+    <!--2.在产生边距的行内块的父元素设置属性：font-size：0px;-->
+    <!--3.在父元素上设置，word-spacing(词边距)的值设为合适的负值即可-->
+    <!--4.在html中将行内块元素在同一行显示，不要进行美观缩进或者换行-->
+
+    <span>1</span>
+    <span>2</span>
+
+</div>
+
+</body>
+</html>

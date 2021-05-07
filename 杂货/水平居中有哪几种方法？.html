@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>水平居中有哪几种方法？</title>
+    <style>
+       /* .out {
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+        }
+        .in {
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            margin: 0 auto;
+        }*/
+
+       /* .out {
+         width: 200px;
+         height: 200px;
+         background-color: blueviolet;
+         display: flex;
+            flex-direction: column;
+     }
+     .in {
+         height: 100px;
+         width: 100px;
+         background-color: blue;
+         align-self: center;
+     }*/
+
+       .out {
+           width: 200px;
+           height: 200px;
+           background-color: blueviolet;
+           position: absolute;
+       }
+       .in {
+           height: 100px;
+           width: 100px;
+           background-color: blue;
+           transform: translate(50%, 50%);
+       }
+
+
+    </style>
+</head>
+<body>
+
+<div class="out">
+    <div class="in">
+    </div>
+</div>
+
+</body>
+</html>

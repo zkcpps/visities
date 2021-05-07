@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>改变this指向</title>
+    <script>
+        // var name = '张三', age = 18;
+        // var obj = {
+        //     name: '李四',
+        //     fn: function() {
+        //         console.log("My name is " + this.name + ", i am " + this.age + ' years old !');
+        //     }
+        // }
+        //
+        // var fn = obj.fn;
+        // fn();   //My name is 张三, i am 18 years old !
+        //
+        // obj.fn(); //My name is 李四, i am undefined years old !
+        //
+        // fn.call(obj);  //My name is 李四, i am undefined years old !
+        // fn.apply(obj); //My name is 李四, i am undefined years old !
+        // fn.bind(obj);  // 没打印
+        // fn.bind(obj)();  //My name is 李四, i am undefined years old !
+        //
+        // var obj2 = {
+        //     name: '王五',
+        //     age: 20
+        // }
+
+        var name = '张三', age = 18;
+        var obj = {
+            name: '李四',
+            fn: function(a,aa) {
+                console.log("My name is " + this.name + ", i am " + this.age + ' years old !');
+                console.log(a, + " " + aa);
+            }
+        }
+
+        var b = obj.fn;
+        b.call(obj, 1, 2);  //参数写在后面
+        b.apply(obj, [1, 2]);  //参数写在第二参数，以数组的形式
+        b.bind(obj, 1)(2);  //写在两个括号都行，等价于 b.bind(obj2, 1, 2)() 或者 b.bind(obj2)(1, 2)
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

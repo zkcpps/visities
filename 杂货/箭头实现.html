@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>箭头实现</title>
+    <style>
+        .content {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        .item span{
+            margin-top: 5px;
+        }
+
+        .up-item {
+            border: 50px solid transparent;
+            border-bottom-color: black;
+            transform: translate(0,-25%);
+        }
+
+        .bottom-item {
+            border: 50px solid transparent;
+            border-top-color: black;
+            transform: translate(0,25%);
+        }
+
+        .left-item {
+            border: 50px solid transparent;
+            border-right-color: black;
+            transform: translate(-25%);
+        }
+
+        .right-item {
+            border: 50px solid transparent;
+            border-left-color: black;
+            transform: translate(25%);
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="content">
+    <div class="item">
+        <div class="up-item"></div>
+        <span>向上</span>
+    </div>
+    <div class="item">
+        <div class="right-item"></div>
+        <span>向右</span>
+    </div>
+    <div class="item">
+        <div class="bottom-item"></div>
+        <span>向下</span>
+    </div>
+    <div class="item">
+        <div class="left-item"></div>
+        <span>向左</span>
+    </div>
+</div>
+
+</body>
+</html>

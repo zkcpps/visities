@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>节流</title>
+</head>
+<body>
+   <input id="button" type="button" value="点击">
+</body>
+<script type="text/javascript">
+    var button = document.getElementById("button");
+    button.addEventListener("click",throttle(click,1000))
+    function click() {
+        console.log("我被点击了");
+    }
+    function throttle(fn,time) {
+        var canRun = true;
+        return function () {
+            if(!canRun) return ;
+            canRun = false;
+            setTimeout(function () {
+                fn.apply(this,arguments);
+                canRun = true;
+            }, time)
+        }
+    }
+
+</script>
+</html>

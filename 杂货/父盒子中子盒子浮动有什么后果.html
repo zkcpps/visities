@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>父盒子中子盒子浮动有什么后果?</title>
+    <style>
+        .parent {
+            /*width: 200px;*/
+            /*height: 200px;*/
+            /*background-color: #F40;*/
+            overflow: hidden;
+        }
+
+        .children {
+            float: left;
+            width: 100px;
+            height: 100px;
+        }
+
+        .children:first-child {
+            background-color: yellow;
+        }
+
+        .children:nth-of-type(2) {
+            background-color: blue;
+        }
+
+        .children:last-child {
+            background-color: aqua;
+        }
+
+        .wrap {
+            height: 400px;
+            background-color: black;
+        }
+
+        /*.clear-fix::after {*/
+            /*content: "";*/
+            /*clear: both;*/
+            /*display: block;*/
+        /*}*/
+
+    </style>
+</head>
+<body>
+   <div class="parent clear-fix">
+       <div class="children">1</div>
+       <div class="children">2</div>
+       <div class="children">3</div>
+   </div>
+   <div class="wrap"></div>
+</body>
+</html>
