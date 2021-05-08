@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>proxy 和 defineProperty</title>
+    <script>
+        window.onload = function (){
+            const obj = {};
+            Object.defineProperty(obj, 'text', {
+                get() {
+                    console.log('访问数据');
+                },
+                set(newVal) {
+                    console.log(newVal);
+                    document.getElementById('input').value = newVal
+                    document.getElementById('input1').value = newVal
+                }
+            })
+
+
+            const input = document.getElementById('input');
+
+            input.addEventListener('keyup', function(e) {
+                obj.text = e.target.value
+            })
+            input1.addEventListener('keyup', function(e) {
+                obj.text = e.target.value
+            })
+
+            console.log(obj.text)
+            console.log(obj.text)
+            console.log(obj.text)
+        }
+
+    </script>
+</head>
+<body>
+   <input id="input" type="text" />
+   <input id="input1" type="text" />
+</body>
+</html>

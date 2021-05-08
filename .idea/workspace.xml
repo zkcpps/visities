@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7af798b1-152e-463b-bd41-65ffe03c174b" name="Default" comment="" />
+    <list default="true" id="7af798b1-152e-463b-bd41-65ffe03c174b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/CSS相关/左边固定，右边自适应的布局/float.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/每日一题/数组去重.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/重学es6/async、await语法.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/重学es6/proxy 和 defineProperty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/前端八股文/实现继承.js" beforeDir="false" afterPath="$PROJECT_DIR$/前端八股文/实现继承.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,8 +24,8 @@
       <file leaf-file-name="原型和原型链.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前端八股文/原型和原型链.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="328">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -26,17 +33,53 @@
       <file leaf-file-name="new的实现.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前端八股文/new的实现.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="494">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="实现继承.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="实现继承.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前端八股文/实现继承.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="190">
+              <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="async、await语法.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/重学es6/async、await语法.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proxy 和 defineProperty.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/重学es6/proxy 和 defineProperty.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="float.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS相关/左边固定，右边自适应的布局/float.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="数组去重.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/每日一题/数组去重.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -44,8 +87,8 @@
       <file leaf-file-name="创建对象的方式.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/前端八股文/创建对象的方式.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="380">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -53,20 +96,8 @@
       <file leaf-file-name="改变this指向.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/改变this指向/改变this指向.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="单例模式.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/设计模式/单例模式/单例模式.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="532">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -74,31 +105,8 @@
       <file leaf-file-name="组合模式.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/设计模式/组合模式/组合模式.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="13" column="51" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="13" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="改变this指向.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端八股文/改变this指向/改变this指向.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="实现call.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端八股文/改变this指向/实现call.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="实现bind.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/前端八股文/改变this指向/实现bind.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="247">
+              <caret line="13" column="51" selection-start-line="10" selection-start-column="14" selection-end-line="13" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -120,6 +128,9 @@
       <find>const promise \= new Promise\(function \(resolve\, reject\) \{\n    resolve\(\&quot;成功\&quot;\)\;\n    reject\(\&quot;失败\&quot;\)\;\n\}\)\npromise\.then\(function \(value\) \{\n    console\.log\(\&quot;resolve\&quot;\,value\)\n\}\, function \(error\) \{\n    console\.log\(\&quot;reject\&quot;\, error\)\;\n\}\)</find>
       <find>const arrObj \= \[\n        \{\n            \n        \}\n        \]</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -168,6 +179,10 @@
         <option value="$PROJECT_DIR$/前端八股文/new的实现.js" />
         <option value="$PROJECT_DIR$/前端八股文/创建对象的方式.js" />
         <option value="$PROJECT_DIR$/前端八股文/实现继承.js" />
+        <option value="$PROJECT_DIR$/重学es6/async、await语法.js" />
+        <option value="$PROJECT_DIR$/重学es6/proxy 和 defineProperty.html" />
+        <option value="$PROJECT_DIR$/CSS相关/左边固定，右边自适应的布局/float.html" />
+        <option value="$PROJECT_DIR$/每日一题/数组去重.js" />
       </list>
     </option>
   </component>
@@ -186,17 +201,21 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/每日一题/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="630" />
     <option name="height" value="670" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,61 +226,27 @@
             <path>
               <item name="visities" type="b2602c69:ProjectViewProjectNode" />
               <item name="visities" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visities" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visities" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="改变this指向" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visities" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visities" type="462c0819:PsiDirectoryNode" />
-              <item name="前端八股文" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visities" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visities" type="462c0819:PsiDirectoryNode" />
-              <item name="前端八股文" type="462c0819:PsiDirectoryNode" />
-              <item name="改变this指向" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visities" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visities" type="462c0819:PsiDirectoryNode" />
-              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visities" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visities" type="462c0819:PsiDirectoryNode" />
-              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
-              <item name="单例模式" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visities" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visities" type="462c0819:PsiDirectoryNode" />
-              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
-              <item name="组合模式" type="462c0819:PsiDirectoryNode" />
+              <item name="每日一题" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/码云/visities/重学es6/proxy 和 defineProperty.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/react/auto-scroll-react" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -288,28 +273,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.实现继承.js">
+  <component name="RunManager" selected="Node.js.数组去重.js">
     <configuration name="创建对象的方式.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="创建对象的方式.js" working-dir="$PROJECT_DIR$/前端八股文" />
+    <configuration name="数组去重.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="数组去重.js" working-dir="$PROJECT_DIR$/每日一题" />
     <configuration name="实现继承.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="实现继承.js" working-dir="$PROJECT_DIR$/前端八股文" />
     <configuration name="单例模式.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="单例模式.js" working-dir="$PROJECT_DIR$/设计模式" />
     <configuration name="正则表达式.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="正则表达式.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="async、await语法.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="async、await语法.js" working-dir="$PROJECT_DIR$/重学es6" />
     <configuration name="实现bind.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="实现bind.js" working-dir="$PROJECT_DIR$/前端八股文/改变this指向" />
-    <configuration name="实现call.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="实现call.js" working-dir="$PROJECT_DIR$/前端八股文/改变this指向" />
     <configuration name="new的实现.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="new的实现.js" working-dir="$PROJECT_DIR$/前端八股文" />
     <list>
-      <item itemvalue="Node.js.实现call.js" />
       <item itemvalue="Node.js.实现bind.js" />
       <item itemvalue="Node.js.new的实现.js" />
       <item itemvalue="Node.js.创建对象的方式.js" />
-      <item itemvalue="Node.js.实现继承.js" />
+      <item itemvalue="Node.js.async、await语法.js" />
+      <item itemvalue="Node.js.数组去重.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.实现继承.js" />
+        <item itemvalue="Node.js.数组去重.js" />
+        <item itemvalue="Node.js.async、await语法.js" />
         <item itemvalue="Node.js.创建对象的方式.js" />
         <item itemvalue="Node.js.new的实现.js" />
         <item itemvalue="Node.js.实现bind.js" />
-        <item itemvalue="Node.js.实现call.js" />
       </list>
     </recent_temporary>
   </component>
@@ -332,23 +318,24 @@
       <workItem from="1618364326121" duration="28492000" />
       <workItem from="1619409611132" duration="14785000" />
       <workItem from="1619846297468" duration="40409000" />
+      <workItem from="1620382681460" duration="10133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174958000" />
+    <option name="totallyTimeSpent" value="185091000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79130435" visible="true" weight="0.20343462" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79130435" visible="true" weight="0.24042273" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32051283" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3195435" />
       <window_info id="Structure" order="1" sideWeight="0.20869565" side_tool="true" weight="0.2642008" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3048433" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -374,13 +361,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/杂货/箭头实现.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/杂货/纯前端弹幕实现.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6468">
@@ -533,9 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,9 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="125" column="6" selection-start-line="125" selection-start-column="6" selection-end-line="125" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -584,16 +558,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/设计模式/组合模式/组合模式.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/设计模式/链式模式/链式模式.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -624,9 +592,6 @@
           <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面试题目/class与继承.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/面试题目/深度拷贝.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -662,7 +627,7 @@
     <entry file="file://$PROJECT_DIR$/前端八股文/改变this指向/实现bind.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -673,13 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/前端八股文/改变this指向/改变this指向.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/设计模式/单例模式/单例模式.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="285">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -688,43 +650,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/改变this指向/改变this指向.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端八股文/创建对象的方式.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/前端八股文/原型和原型链.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/前端八股文/new的实现.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="494">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/设计模式/组合模式/组合模式.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="13" column="51" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="13" selection-end-column="51" />
+        <state relative-caret-position="247">
+          <caret line="13" column="51" selection-start-line="10" selection-start-column="14" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端八股文/创建对象的方式.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/前端八股文/原型和原型链.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/前端八股文/实现继承.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="190">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/重学es6/async、await语法.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/重学es6/proxy 和 defineProperty.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS相关/左边固定，右边自适应的布局/float.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/每日一题/数组去重.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
