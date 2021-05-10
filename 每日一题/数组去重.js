@@ -29,3 +29,10 @@ function unique(arr) {
 const arr= [undefined, undefined, null, null, true, false, 'true', NaN, NaN, 'NaN', {}, {}, [], [], -0, 1, 0]
 
 console.log(unique(arr));
+
+const arr1 = [1,2,3];
+const arr2 = [1,3,4,5];
+const arr3= arr1.concat(arr2);
+const arr4= [...arr1, ...arr2];
+console.log(arr3);
+console.log(arr4);
