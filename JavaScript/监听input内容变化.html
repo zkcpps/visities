@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>监听input内容变化</title>
+    <script>
+        window.onload = function () {
+            const inputEl = document.getElementsByTagName("input")[0];
+            // inputEl.oninput = function(e) {
+            //     console.log(e.target.value)
+            // }
+            inputEl.addEventListener('keyup', function(e){
+                console.log(e.target.value)
+            })
+        }
+    </script>
+</head>
+<body>
+  <input type="text">
+</body>
+</html>

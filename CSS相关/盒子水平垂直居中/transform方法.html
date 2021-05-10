@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tansform实现居中</title>
+    <style>
+
+        .wrapper {
+            width: 400px;
+            height: 400px;
+            background-color: #dddddd;
+            position: relative;
+            margin: auto;
+            top: 50%;
+            transform: translateY(50%);
+        }
+
+       /* .box {
+            width: 200px;
+            height: 200px;
+            background-color: #93d0ea;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }*/
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: #93d0ea;
+            margin: auto;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+    </style>
+</head>
+<body>
+
+  <div class="wrapper">
+      <div class="box">content</div>
+  </div>
+
+
+</body>
+</html>
