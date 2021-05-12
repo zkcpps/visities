@@ -42,6 +42,31 @@
         b.bind(obj, 1)(2);  //写在两个括号都行，等价于 b.bind(obj2, 1, 2)() 或者 b.bind(obj2)(1, 2)
 
 
+        var a = {
+            name: "aa",
+            sayName() { 
+                console.log("sayname", this);
+            },
+            sayFName() {setTimeout(function(){
+                console.log("sayFName", this); 
+            },0)},
+            sayJiantou(){setTimeout(() => {
+                console.log("sayJiantou", this); 
+            },0)},
+        }
+
+        // a.sayName();
+        // a.sayFName();
+        // a.sayJiantou();
+        var sayName = a.sayName;
+        var sayFName = a.sayFName;
+        var sayJiantou = a.sayJiantou;
+        sayName();
+        sayFName();
+        sayJiantou();
+
+
+
     </script>
 </head>
 <body>

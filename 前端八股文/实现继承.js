@@ -6,7 +6,7 @@ function Person(name,age) {
 Person.prototype.sayName = function() {
     console.log("Hello, Person!");
 }
-
+ 
 function Man(gender) {
     Person.apply(this, [...arguments].slice(1));
     this.gender = gender;
