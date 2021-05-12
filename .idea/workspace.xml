@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af798b1-152e-463b-bd41-65ffe03c174b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript/Dom操作/获取dom节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/ajax/XMLHttpRequest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/ajax/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/ajax/data/test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/ajax/fetch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/ajax/同源与跨域.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/存储/cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/存储/localStorage和sessionStorage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/存储/session.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/操作系统/linux命令.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/运行环境相关/性能优化/性能优化" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/运行环境相关/网页加载过程/两种监听网页加载过程的方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/运行环境相关/网页加载过程/页面加载和渲染过程" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/运行环境相关/安全相关/安全" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/运行环境相关/性能优化/性能优化" beforeDir="false" afterPath="$PROJECT_DIR$/运行环境相关/性能优化/性能优化" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,29 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".babelrc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack/.babelrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
               <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -88,11 +54,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="性能优化" pinned="false" current-in-tab="true">
+      <file leaf-file-name="性能优化" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/运行环境相关/性能优化/性能优化">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="438">
+              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="安全" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/运行环境相关/安全相关/安全">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="防抖.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/防抖与节流/防抖.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="376">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="节流.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/防抖与节流/节流.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -140,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/面试题目/面试题目1.js" />
         <option value="$PROJECT_DIR$/前端八股文/原型和原型链.js" />
         <option value="$PROJECT_DIR$/设计模式/单例模式.css" />
         <option value="$PROJECT_DIR$/设计模式/单例模式.js" />
@@ -191,6 +183,7 @@
         <option value="$PROJECT_DIR$/运行环境相关/网页加载过程/页面加载和渲染过程" />
         <option value="$PROJECT_DIR$/运行环境相关/网页加载过程/两种监听网页加载过程的方法.html" />
         <option value="$PROJECT_DIR$/运行环境相关/性能优化/性能优化" />
+        <option value="$PROJECT_DIR$/运行环境相关/安全相关/安全" />
       </list>
     </option>
   </component>
@@ -230,6 +223,28 @@
             <path>
               <item name="visities" type="b2602c69:ProjectViewProjectNode" />
               <item name="visities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visities" type="462c0819:PsiDirectoryNode" />
+              <item name="运行环境相关" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visities" type="462c0819:PsiDirectoryNode" />
+              <item name="运行环境相关" type="462c0819:PsiDirectoryNode" />
+              <item name="安全相关" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visities" type="462c0819:PsiDirectoryNode" />
+              <item name="运行环境相关" type="462c0819:PsiDirectoryNode" />
+              <item name="性能优化" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visities" type="462c0819:PsiDirectoryNode" />
+              <item name="防抖与节流" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -328,7 +343,7 @@
       <workItem from="1619409611132" duration="14785000" />
       <workItem from="1619846297468" duration="40409000" />
       <workItem from="1620382681460" duration="10411000" />
-      <workItem from="1620617866695" duration="45866000" />
+      <workItem from="1620617866695" duration="54032000" />
     </task>
     <task id="LOCAL-00001" summary="add: 增加">
       <created>1620468339014</created>
@@ -344,11 +359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1620642395814</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add: 增加">
+      <created>1620804442566</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620804442566</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231235000" />
+    <option name="totallyTimeSpent" value="239401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -390,20 +412,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add: 增加" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/重学es6/proxy 和 defineProperty.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS相关/左边固定，右边自适应的布局/float.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/每日一题/数组去重.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -608,9 +616,6 @@
     <entry file="file://$PROJECT_DIR$/面试题目/class与继承.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/防抖与节流/节流.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/设计模式/观察者模式/观察者模式.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -707,10 +712,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/防抖与节流/节流.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/防抖与节流/防抖.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/运行环境相关/性能优化/性能优化">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="438">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/运行环境相关/安全相关/安全">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
