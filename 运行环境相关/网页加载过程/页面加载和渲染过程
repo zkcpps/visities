@@ -1,0 +1,15 @@
+页面加载过程
+
+1.DNS 解析： 域名-> IP地址
+2.浏览器根据IP地址向服务器发起http请求
+3.服务器响应http请求，并返回给浏览器
+
+渲染过程
+
+1.根据HTML代码生成DOM Tree
+2.根据CSS代码生成CSSOM
+3.将DOM Tree 和 CSSDOM 整合形成 Render Tree
+4.根据Render Tree渲染页面
+5.遇到<script>则暂停渲染，优先加载并执行JS代码，完成再继续
+6.直至把RenderTree 渲染完成
+

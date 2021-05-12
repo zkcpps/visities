@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>两种监听网页加载过程的方法</title>
+    <script>
+         window.addEventListener('load',function () {
+             //页面的全部资源加载完成才会执行，包括图片、视频等
+             console.log("load完成");
+         })
+
+         document.addEventListener('DOMContentLoaded', function () {
+             // DOM 渲染完成即可执行，此时图片、视频还可能没有加载完
+             console.log("DOMContentLoaded完成");
+         })
+    </script>
+</head>
+<body>
+   <h1>11</h1>
+   <h1>11</h1>
+   <h1>11</h1>
+   <h1>11</h1>
+   <h1>11</h1>
+   <h1>11</h1>
+   <h1>11</h1>
+   <h1>11</h1>
+   <h1>11</h1>
+   <h1>11</h1>
+   <h1>11</h1>
+</body>
+</html>

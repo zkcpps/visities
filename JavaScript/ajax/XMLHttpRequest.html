@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XMLHttpRequest</title>
+    <script>
+
+        function get() {
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', 'data/test.json', false);
+            xhr.onreadystatechange = function() {
+                if(xhr.readyState === 4) {
+                    if(xhr.status === 200) {
+                        alert(xhr.responseText);
+                    }
+                }
+            }
+            xhr.send(null);
+        }
+
+        get();
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

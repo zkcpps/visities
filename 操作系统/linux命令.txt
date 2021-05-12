@@ -1,0 +1,47 @@
+连接命令
+ssh username@IP地址
+
+查看
+ls
+ls -a
+ll
+
+清屏
+clear
+
+创建文件夹
+mkdir xxx
+
+删除文件夹
+rm -rf xxx
+
+修改名字
+mv index.html index1.html
+
+移动
+mv 文件  文件位置
+
+拷贝
+cp 文件名称 新文件名称
+
+新建文件
+touch xx || vi xxx 编辑状态
+
+vi 状态
+esc 退出编辑模式
+:w 保存写入
+:q 退出
+:q! 强制退出
+i 进入编辑模式
+
+查看文件
+vim xxx
+cat xxx
+head xxx  前面几行
+tail xxx  末尾几行
+
+查找文件
+grep 'keyword' 查找位置
+
+
+

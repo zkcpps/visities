@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>获取dom节点</title>
+    <style>
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .red {
+            color: red;
+        }
+
+    </style>
+    <script>
+        window.onload = function() {
+
+            const div1 = document.getElementsByTagName('div')[0];
+            const div2 = document.getElementsByTagName('div')[1];
+            console.log('div1-----',div1);
+
+            const div1ById = document.getElementById('div1');
+            console.log('div1ById-----',div1ById);
+
+            const div1Query = document.querySelector('#div1');
+            console.log('div1Query-----',div1Query);
+
+            const frag = document.createDocumentFragment();
+            for (let i = 0; i < 10 ; i++) {
+                const pEl = document.createElement('p');
+                pEl.innerHTML= `It is new P${i}`;
+                frag.appendChild(pEl);
+            }
+
+            div1.appendChild(frag);
+
+            const child = div1.childNodes;
+            const pList = Array.prototype.slice.call(child).filter((item) => {
+                return item.nodeType === 1;
+            })
+            console.log('child-----',child);
+            console.log('pList-----',pList);
+            pList[0].className = 'red';
+            pList[1].style = 'color: red';
+        }
+    </script>
+</head>
+<body>
+   <div id="div1">
+       <p>It is p1</p>
+       <p>It is p2</p>
+       <p>It is p3</p>
+   </div>
+   <div id="div2">
+       <img src="../../HTML/img/img.jpg" />
+   </div>
+</body>
+</html>
