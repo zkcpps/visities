@@ -1,0 +1,13 @@
+性能优化
+
+shouldComponentUpdate  SCU
+PureComponent 和 memo
+
+不可变值
+immutable.js
+
+高阶组件
+传入一个组件，返回一个组件
+属性透传
+...this.props
+
