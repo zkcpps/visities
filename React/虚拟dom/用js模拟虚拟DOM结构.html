@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        var vdom =
+         {
+            tag: 'div',
+            props: {
+                id: 'div1',
+                className: 'constainer'
+            },
+            children: [
+                 {
+                     tag: 'p',
+                     children: 'vdom'
+                 },
+                 {
+                     tag: 'ul',
+                     props: { style: 'font-size: 20px' },
+                     children: [
+                         {
+                             tag: 'li',
+                             children: 'a'
+                         }
+                     ]
+                 }
+            ]
+        }
+    </script>
+</head>
+<body>
+
+    <div id="div1" class="container">
+        <p>vdom</p>
+        <ul style="font-size: 20px">
+            <li>a</li>
+        </ul>
+    </div>
+
+</body>
+</html>

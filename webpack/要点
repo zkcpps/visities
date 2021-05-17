@@ -1,0 +1,26 @@
+# 基本配置
+拆分配置 与 merge
+启动本地服务
+处理ES6
+处理样式 （loader执行顺序是从后往前执行）
+处理图片
+（模块化）
+
+#高级配置
+多入口
+抽离CSS文件
+抽离公共代码
+懒加载
+
+# module chunk bundle 的区别
+module: 各个源码文件，webpack中一切皆模块
+chunk: 多模块合并成的，如 entry, import(), splitChunk
+bundle： 最终的输出文件 
+
+# webpack性能优化
+优化打包构建速度
+优化产出代码
+ 优化babel-loader
+ happyPack
+ ParallelUglifyPlugin 单线程，多进程打包（项目很大的情况才作用明显，项目很小反而会增加消耗）
+
