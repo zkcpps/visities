@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af798b1-152e-463b-bd41-65ffe03c174b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaScript/动画/animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/动画/动画演示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/demo/PortalDemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/demo/countDemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/demo/eventDemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/demo/formDemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/知识点" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/Dom操作/获取dom节点.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/Dom操作/获取dom节点.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/杂货/斐波那契.js" beforeDir="false" afterPath="$PROJECT_DIR$/杂货/斐波那契.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/React/知识点">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -50,27 +40,22 @@
       <file leaf-file-name="纯前端弹幕实现.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/杂货/纯前端弹幕实现.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-336">
-              <caret line="293" column="14" lean-forward="true" selection-start-line="293" selection-start-column="14" selection-end-line="293" selection-end-column="14" />
+            <state relative-caret-position="5567">
+              <caret line="293" column="14" selection-start-line="293" selection-start-column="14" selection-end-line="293" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="斐波那契.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="斐波那契.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/杂货/斐波那契.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="136" column="26" lean-forward="true" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
+            <state relative-caret-position="152">
+              <caret line="138" column="8" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="8" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logo.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/React/demo/src/logo.svg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="eventDemo.js" pinned="false" current-in-tab="false">
@@ -88,15 +73,19 @@
       <file leaf-file-name="formDemo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/React/demo/src/demo/formDemo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
+            <state relative-caret-position="342">
               <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/React/demo/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
@@ -111,7 +100,7 @@
       <file leaf-file-name="PortalDemo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/React/demo/src/demo/PortalDemo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="209">
               <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="e#8#46#0" expanded="true" />
@@ -230,8 +219,8 @@
     <handled-path value="$PROJECT_DIR$/每日一题/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="630" />
     <option name="height" value="670" />
   </component>
@@ -244,6 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,13 +244,23 @@
             <path>
               <item name="visities" type="b2602c69:ProjectViewProjectNode" />
               <item name="visities" type="462c0819:PsiDirectoryNode" />
+              <item name="React" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visities" type="462c0819:PsiDirectoryNode" />
+              <item name="React" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visities" type="462c0819:PsiDirectoryNode" />
               <item name="杂货" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.斐波那契.js">
+  <component name="RunManager" selected="Node.js.index.js">
     <configuration name="斐波那契数列.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="斐波那契数列.js" working-dir="$PROJECT_DIR$/算法" />
     <configuration name="斐波那契.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="斐波那契.js" working-dir="$PROJECT_DIR$/杂货" />
     <configuration name="打乱数组.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="打乱数组.js" working-dir="$PROJECT_DIR$/算法" />
@@ -327,11 +327,9 @@
       <item itemvalue="Node.js.index.js" />
       <item itemvalue="Node.js.斐波那契数列.js" />
       <item itemvalue="Node.js.class与继承.js" />
-      <item itemvalue="Node.js.斐波那契.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.斐波那契.js" />
         <item itemvalue="Node.js.class与继承.js" />
         <item itemvalue="Node.js.斐波那契数列.js" />
         <item itemvalue="Node.js.index.js" />
@@ -359,7 +357,8 @@
       <workItem from="1619846297468" duration="40409000" />
       <workItem from="1620382681460" duration="10411000" />
       <workItem from="1620617866695" duration="74453000" />
-      <workItem from="1620970992850" duration="7298000" />
+      <workItem from="1620970992850" duration="7880000" />
+      <workItem from="1621214492051" duration="927000" />
     </task>
     <task id="LOCAL-00001" summary="add: 增加">
       <created>1620468339014</created>
@@ -403,24 +402,30 @@
       <option name="project" value="LOCAL" />
       <updated>1620900209517</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add: 增加react部分">
+      <created>1620986516365</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620986516365</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267120000" />
+    <option name="totallyTimeSpent" value="268629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79130435" visible="true" weight="0.18626156" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79130435" visible="true" weight="0.31902245" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.30813125" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31669044" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="8" sideWeight="0.501321" side_tool="true" visible="true" weight="0.17546362" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49867898" visible="true" weight="0.17546362" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31669044" />
       <window_info id="Structure" order="1" sideWeight="0.20869565" side_tool="true" weight="0.2642008" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.29243937" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -431,25 +436,26 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.30813125" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31669044" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79130435" visible="true" weight="0.18626156" />
       <window_info id="Structure" order="1" sideWeight="0.20869565" side_tool="true" weight="0.2642008" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31669044" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29243937" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.30813125" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -467,16 +473,31 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add: 增加" />
     <MESSAGE value="add: 增加算法部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: 增加算法部分" />
+    <MESSAGE value="add: 增加react部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: 增加react部分" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/React/demo/src/demo/PortalDemo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#8#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/React/demo/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/React/demo/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,9 +542,6 @@
           <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/设计模式/观察者模式/观察者模式.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -726,9 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,9 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -749,18 +761,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/React/demo/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/React/demo/src/reportWebVitals.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React/demo/src/logo.svg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/React/demo/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -771,7 +777,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/React/demo/src/demo/PortalDemo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="209">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#8#46#0" expanded="true" />
@@ -781,7 +787,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/React/demo/src/demo/formDemo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
+        <state relative-caret-position="342">
           <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
@@ -809,24 +815,31 @@
     <entry file="file://$PROJECT_DIR$/React/知识点">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/杂货/纯前端弹幕实现.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="293" column="14" lean-forward="true" selection-start-line="293" selection-start-column="14" selection-end-line="293" selection-end-column="14" />
+        <state relative-caret-position="5567">
+          <caret line="293" column="14" selection-start-line="293" selection-start-column="14" selection-end-line="293" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/杂货/斐波那契.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="136" column="26" lean-forward="true" selection-start-line="136" selection-start-column="26" selection-end-line="136" selection-end-column="26" />
+        <state relative-caret-position="152">
+          <caret line="138" column="8" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="8" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/React/demo/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
