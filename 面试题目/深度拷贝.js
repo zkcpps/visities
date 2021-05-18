@@ -7,7 +7,7 @@
             return obj;
         }
 
-        let result;
+       let result;
        if(obj instanceof Array){
           result = []
        } else {

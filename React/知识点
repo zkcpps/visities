@@ -3,11 +3,66 @@
 shouldComponentUpdate  SCU
 PureComponent 和 memo
 
-不可变值
+不可变值(重要)
 immutable.js
 
 高阶组件
 传入一个组件，返回一个组件
 属性透传
 ...this.props
+
+redux
+单向数据流
+view->action->dispatch-reducer->state->view->action....
+中间件 redux-thunk redux-promise redux-saga
+
+react-router
+
+vdom 和 diff
+
+vdom 虚拟dom 
+目的是减少dom操作，原因是dom操作很耗费性能
+用js来模拟DOM结构，计算出最小变更，操作DOM
+核心概念
+h、vnode、patch、diff、key等
+vdom的意义： 数据驱动视图，控制DOM操作
+
+diff算法
+关键在于有key会使得算法更加高效
+关键方法
+patchVnode 
+addVnodes removeVnodes
+updateChildren(key的重要性)
+
+jsx的本质
+h函数 返回vnode
+React.createElement
+第一个参数 可能是组件 或是 html tag （怎么区分，组件首字母是大写（jsx规范））
+
+合成事件
+目的
+更好的兼容性和跨平台
+载到document，减少内存消耗，避免频繁解绑
+方便事件的统一管理（如事务机制）
+
+setState异步还是同步
+# setState无所谓同步还是异步
+# 看是否命中 batchUpdate机制
+# 判断isBatchingUpdates
+
+哪些能命中batchUpdate机制
+# 生命周期（和它调用的函数）
+# React中注册的事件（和它调用的函数）
+# React 可以“管理”的入口
+
+哪些不能命中batchUpdate机制
+# setTimeout setInterval等（和它调用的函数）
+# 自定义的DOM事件（和它调用的函数）
+# React “管不到” 的入口
+
+
+
+
+
+
 
