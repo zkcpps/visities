@@ -1,0 +1,15 @@
+.container {
+    width: 500px;
+    height: 300px;
+    /*overflow: hidden;*/
+    white-space: nowrap;
+    outline: 1px blue solid;
+    background-color: #61dafb;
+    margin: 30px auto;
+}
+.container>img {
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    transition: transform ease 0.5s;
+}

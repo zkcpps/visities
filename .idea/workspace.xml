@@ -1,36 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7af798b1-152e-463b-bd41-65ffe03c174b" name="Default" comment="add: 增加react部分">
-      <change afterPath="$PROJECT_DIR$/HTML/百度首页.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/React Hook.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/components/App/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/components/Calendar/CalendarContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/components/Calendar/CalendarFooter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/components/Calendar/CalendarHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/components/Footer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/components/Link/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/components/Todo/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/components/TodoList/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/components/reducer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/demo/Calculator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/demo/Test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/demo/contextDemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/demo/reducerDemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/demo/refDemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/demo/useCallbackDemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/pages/AddTodo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/pages/FilterLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/pages/SearchTodo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/pages/VisibleTodoList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/reducers/todos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React/demo/src/reducers/visibilityFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/question.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/组件化/Carousel/Carousel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/面试题目/网易" afterDir="false" />
+    <list default="true" id="7af798b1-152e-463b-bd41-65ffe03c174b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React/demo/src/asset/images/carousel/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React/demo/src/asset/images/carousel/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React/demo/src/asset/images/carousel/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React/demo/src/asset/images/carousel/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React/demo/src/asset/images/carousel/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React/demo/src/components/Carousel/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/React/demo/src/components/Carousel/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/基础类型.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/demo/src/components/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/React/demo/src/components/App/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/组件化/Carousel/Carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/组件化/Carousel/Carousel.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,35 +28,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Carousel.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Carousel.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/组件化/Carousel/Carousel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="63" column="62" lean-forward="true" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
+            <state relative-caret-position="178">
+              <caret line="43" column="86" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="86" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="animation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/动画/animation.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/React/demo/src/components/Carousel/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="array.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/array.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="基础类型.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TypeScript/基础类型.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="动画演示.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/动画/动画演示.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="获取dom节点.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaScript/Dom操作/获取dom节点.html">
+      <file leaf-file-name="基础类型.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TypeScript/基础类型.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="38" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="react.d.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="2620" column="26" selection-start-line="2620" selection-start-column="26" selection-end-line="2620" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/React/demo/src/components/Carousel/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/React/demo/src/asset/images/carousel/5.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/React/demo/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/React/demo/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/React/demo/src/components/App/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,13 +125,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="tsconfig.json" />
-        <option value="React hooks" />
         <option value="ReactComponent" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="React hooks" />
+        <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -116,9 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/算法/合并两个有序数组.js" />
-        <option value="$PROJECT_DIR$/算法/斐波那契数列.js" />
-        <option value="$PROJECT_DIR$/算法/打乱数组.js" />
         <option value="$PROJECT_DIR$/JavaScript/array.js" />
         <option value="$PROJECT_DIR$/面试题目/class与继承.js" />
         <option value="$PROJECT_DIR$/JavaScript/动画/动画演示.html" />
@@ -161,12 +201,15 @@
         <option value="$PROJECT_DIR$/React/demo/src/pages/SearchTodo.js" />
         <option value="$PROJECT_DIR$/React/demo/src/pages/VisibleTodoList.js" />
         <option value="$PROJECT_DIR$/React/react/app/components/logo/logo.js" />
-        <option value="$PROJECT_DIR$/React/demo/src/components/App/index.js" />
         <option value="$PROJECT_DIR$/React/demo/src/reducers/visibilityFilter.js" />
         <option value="$PROJECT_DIR$/React/demo/src/index.js" />
         <option value="$PROJECT_DIR$/question.js" />
         <option value="$PROJECT_DIR$/HTML/百度首页.html" />
+        <option value="$PROJECT_DIR$/React/demo/src/components/App/index.js" />
         <option value="$PROJECT_DIR$/组件化/Carousel/Carousel.html" />
+        <option value="$PROJECT_DIR$/React/demo/src/components/Carousel/index.js" />
+        <option value="$PROJECT_DIR$/React/demo/src/components/Carousel/index.css" />
+        <option value="$PROJECT_DIR$/TypeScript/基础类型.ts" />
       </list>
     </option>
   </component>
@@ -217,30 +260,13 @@
             <path>
               <item name="visities" type="b2602c69:ProjectViewProjectNode" />
               <item name="visities" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="TypeScript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="visities" type="b2602c69:ProjectViewProjectNode" />
               <item name="visities" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="Dom操作" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visities" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visities" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
-              <item name="动画" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visities" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visities" type="462c0819:PsiDirectoryNode" />
-              <item name="组件化" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visities" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visities" type="462c0819:PsiDirectoryNode" />
-              <item name="组件化" type="462c0819:PsiDirectoryNode" />
-              <item name="Carousel" type="462c0819:PsiDirectoryNode" />
+              <item name="TypeScript" type="462c0819:PsiDirectoryNode" />
+              <item name="基础类型.ts" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -251,9 +277,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/码云/visities/重学es6/proxy 和 defineProperty.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -268,23 +295,23 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\码云\visities\React\demo\src\asset\images\carousel" />
       <recent name="D:\码云\visities\React\demo\src\pages" />
       <recent name="D:\码云\visities\React\demo\src\components\Calendar" />
       <recent name="D:\码云\visities\CSS相关\盒子水平垂直居中" />
       <recent name="D:\码云\visities\HTML\img" />
-      <recent name="C:\Users\admin\WebstormProjects\visities\前端八股文" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\码云\visities\React\demo\src\asset\images\carousel" />
       <recent name="D:\码云\visities\React\demo\src\demo" />
       <recent name="D:\码云\visities\JavaScript\ajax" />
       <recent name="C:\Users\admin\WebstormProjects\visities\设计模式\组合模式" />
       <recent name="C:\Users\admin\WebstormProjects\visities\设计模式\单例模式" />
-      <recent name="C:\Users\admin\WebstormProjects\visities\杂货" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -299,8 +326,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.question.js">
+  <component name="RunManager" selected="Node.js.基础类型.js">
     <configuration name="斐波那契数列.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="斐波那契数列.js" working-dir="$PROJECT_DIR$/算法" />
+    <configuration name="基础类型.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="基础类型.js" working-dir="$PROJECT_DIR$/TypeScript" />
     <configuration name="数组扁平化.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="数组扁平化.js" working-dir="$PROJECT_DIR$/JavaScript" />
     <configuration name="斐波那契.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="斐波那契.js" working-dir="$PROJECT_DIR$/杂货" />
     <configuration name="打乱数组.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="打乱数组.js" working-dir="$PROJECT_DIR$/算法" />
@@ -317,9 +345,11 @@
       <item itemvalue="Node.js.斐波那契数列.js" />
       <item itemvalue="Node.js.class与继承.js" />
       <item itemvalue="Node.js.question.js" />
+      <item itemvalue="Node.js.基础类型.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.基础类型.js" />
         <item itemvalue="Node.js.question.js" />
         <item itemvalue="Node.js.class与继承.js" />
         <item itemvalue="Node.js.斐波那契数列.js" />
@@ -352,7 +382,7 @@
       <workItem from="1621214492051" duration="25845000" />
       <workItem from="1621817171188" duration="21053000" />
       <workItem from="1621930073216" duration="4125000" />
-      <workItem from="1622164680231" duration="19203000" />
+      <workItem from="1622164680231" duration="45923000" />
     </task>
     <task id="LOCAL-00001" summary="add: 增加">
       <created>1620468339014</created>
@@ -410,25 +440,32 @@
       <option name="project" value="LOCAL" />
       <updated>1621308221381</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add:添加代码">
+      <created>1622197321974</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1622197321974</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337928000" />
+    <option name="totallyTimeSpent" value="364648000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79130435" visible="true" weight="0.22985469" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5019815" side_tool="true" visible="true" weight="0.09129815" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980185" weight="0.3452211" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4980185" weight="0.8302425" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50264204" side_tool="true" visible="true" weight="0.3452211" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.497358" visible="true" weight="0.3452211" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.497358" weight="0.29386592" />
       <window_info id="Structure" order="1" sideWeight="0.20869565" side_tool="true" weight="0.2642008" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49603698" weight="0.2168331" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4953765" weight="0.34094152" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -437,7 +474,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -465,6 +501,7 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/TypeScript/基础类型.js" />
       </list>
     </option>
   </component>
@@ -475,68 +512,15 @@
     <MESSAGE value="add: 增加" />
     <MESSAGE value="add: 增加算法部分" />
     <MESSAGE value="add: 增加react部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: 增加react部分" />
+    <MESSAGE value="add:添加代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="add:添加代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/React/demo/src/demo/Calculator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="69" column="41" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React/demo/src/demo/contextDemo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React/demo/src/demo/useCallbackDemo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="39" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React/demo/src/demo/refDemo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React/demo/src/reducer/count_store.js" />
-    <entry file="file://$PROJECT_DIR$/React/demo/node_modules/redux/dist/redux.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3065" selection-start-column="3065" selection-end-column="3065" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React/demo/node_modules/redux/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="401" column="20" selection-start-line="401" selection-start-column="20" selection-end-line="401" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React/demo/node_modules/redux/dist/redux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="129" column="9" selection-start-line="129" selection-start-column="9" selection-end-line="129" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React/demo/src/pages/SearchTodoList.js" />
-    <entry file="file://$PROJECT_DIR$/React/demo/src/pages/SearchTodoList.js" />
-    <entry file="file://$PROJECT_DIR$/React/react/app/redux/actions/common.js" />
-    <entry file="file://$PROJECT_DIR$/React/react/app/apis/common.js" />
     <entry file="file://$PROJECT_DIR$/算法/数组去重.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -559,20 +543,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/React/react/app/components/logo/logo.js" />
-    <entry file="file://$PROJECT_DIR$/React/demo/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/React/demo/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/React/demo/src/pages/VisibleTodoList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -716,16 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/React/demo/src/components/App/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML/百度首页.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2014">
@@ -755,16 +715,13 @@
     <entry file="file://$PROJECT_DIR$/组件化/Carousel/img/2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/组件化/Carousel/img/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/array.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/Dom操作/获取dom节点.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="38" />
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -774,10 +731,104 @@
     <entry file="file://$PROJECT_DIR$/JavaScript/动画/animation.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/React/demo/node_modules/@types/eslint/rules/best-practices.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="590" column="16" selection-start-line="590" selection-start-column="16" selection-end-line="590" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/React/虚拟dom/用js模拟虚拟DOM结构.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/React/demo/src/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/组件化/Carousel/img/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/React/demo/src/asset/images/carousel/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/React/demo/src/asset/images/carousel/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/React/demo/src/asset/images/carousel/5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/React/demo/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/React/demo/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/React/demo/src/components/App/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/xpath.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="2620" column="26" selection-start-line="2620" selection-start-column="26" selection-end-line="2620" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/组件化/Carousel/Carousel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="63" column="62" lean-forward="true" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
+        <state relative-caret-position="178">
+          <caret line="43" column="86" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/React/demo/src/components/Carousel/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/React/demo/src/components/Carousel/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeScript/基础类型.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeScript/基础类型.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
