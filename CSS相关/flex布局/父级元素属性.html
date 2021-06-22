@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>父级元素属性</title>
+  <style>
+    
+     /* flex-flow 是 flex-direction 和 flex-wrap的简写形式 */
+    .flex-flow { 
+      display: flex;
+      flex-flow: nowrap;
+      width: 300px;
+      height: 220px;
+      background-color: aquamarine;
+    }
+
+    /* flex-direction 决定元素在主轴方向的排列方式 */
+    .flex-direction { 
+      display: flex;
+      flex-direction: row;
+      width: 300px;
+      height: 220px;
+      background-color: aquamarine;
+    }
+
+
+    /* flex-wrap属性定义，如果一条轴线排不下，如何换行。 */
+    .flex-wrap { 
+      display: flex;
+      flex-wrap: wrap;
+      width: 300px;
+      height: 220px;
+      background-color: aquamarine;
+    }
+
+      /* justify-content属性定义了项目在主轴上的对齐方式。*/
+    .justify-content { 
+      display: flex;
+      justify-content: space-around;
+      width: 500px;
+      height: 220px;
+      background-color: aquamarine;
+    }
+
+    /* align-items属性定义项目在交叉轴上如何对齐。 */
+    .align-items { 
+      display: flex;
+      align-items: center;
+      width: 500px;
+      height: 300px;
+      background-color: aquamarine;
+    }
+
+    
+    /* align-content属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。 */
+    .align-content { 
+      display: flex;
+      align-content: center;
+      width: 500px;
+      height: 300px;
+      background-color: aquamarine;
+    }
+
+    .item {
+      width: 100px;
+      height: 100px;
+      background-color: #ff5777;
+      margin-right: 10px;
+    }
+    
+
+  </style>
+</head>
+<body>
+
+  <h1>flex-flow 是 flex-direction 和 flex-wrap的简写形式</h1>
+  <div class="flex-flow">
+       <div class="item">1</div>
+       <div class="item">2</div>
+       <div class="item">3</div>
+  </div>
+
+  <h1>flex-direction 决定元素在主轴方向的排列方式</h1>
+  <div class="flex-direction">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <h1>flex-wrap属性定义，如果一条轴线排不下，如何换行。</h1>
+  <div class="flex-wrap">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <h1>justify-content属性定义了项目在主轴上的对齐方式。</h1>
+  <div class="justify-content">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <h1>align-items属性定义项目在交叉轴上如何对齐。</h1>
+  <div class="align-items">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <h1>align-content属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。</h1>
+  <div class="align-content">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+  
+</body>
+</html>
