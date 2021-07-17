@@ -42,7 +42,7 @@ React.createElement
 合成事件
 目的
 更好的兼容性和跨平台
-载到document，减少内存消耗，避免频繁解绑
+挂载到document，减少内存消耗，避免频繁解绑
 方便事件的统一管理（如事务机制）
 
 setState异步还是同步
