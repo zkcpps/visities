@@ -23,4 +23,6 @@ bundle： 最终的输出文件
  优化babel-loader
  happyPack
  ParallelUglifyPlugin 单线程，多进程打包（项目很大的情况才作用明显，项目很小反而会增加消耗）
+ 自动刷线
+ 热更新：新代码生效，网页不刷新，状态不丢失
 

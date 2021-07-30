@@ -42,3 +42,10 @@
     console.log(a.d == null);
     console.log(a.d === undefined);
     console.log(a.d == undefined);
+
+
+   const reg = /([0-9]+)/g;
+
+   const test = '13265dfd232245r3vbbf455';
+
+   console.log(test.match(reg));  //[ '13265', '232245', '3', '455' ]
