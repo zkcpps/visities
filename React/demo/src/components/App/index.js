@@ -1,9 +1,11 @@
 import React from 'react'
-import Footer from '../Footer'
-import AddTodo from '../../pages/AddTodo'
-import SearchTodo from '../../pages/SearchTodo'
-import VisibleTodoList from '../../pages/VisibleTodoList'
-import Carousel from '../../components/Carousel';
+// import Footer from '../Footer'
+// import AddTodo from '../../pages/AddTodo'
+// import SearchTodo from '../../pages/SearchTodo'
+// import VisibleTodoList from '../../pages/VisibleTodoList'
+// import Carousel from '../../components/Carousel';
+
+import MyCarousel from '../../components/MyCarousel';
 
 import  image1 from '../../asset/images/carousel/1.png';
 import  image2 from '../../asset/images/carousel/2.png';
@@ -42,9 +44,10 @@ const App = () => {
             {/*<VisibleTodoList />*/}
             {/*<Footer />*/}
             {/*<SearchTodo />*/}
-            <Carousel dataList={imgList} timer={3000}/>
+            {/* <Carousel dataList={imgList} timer={3000}/> */}
+            <MyCarousel dataSource={imgList} />
         </div>
     )
-}
+} 
 
 export default App

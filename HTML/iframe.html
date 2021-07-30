@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+     window.onload = function () {
+      // localStorage.setItem("window",window.document)
+      // document.getElementById('frame').contentWindow.postMessage(String(window.docment),'*');
+      function aa() {
+        alert(1111)
+      }
+    
+
+     if (typeof window.addEventListener != 'undefined') {//for ie9+
+       window.addEventListener('message', function(e) {
+        aa();
+      }, false);
+      } else if (typeof window.attachEvent != 'undefined') { //for ie8-
+      window.attachEvent('onmessage',function(e) {
+        aa();
+      });
+    }
+  }
+
+   
+</script> 
+</head>
+<body>
+
+  <div id='wrapper'>
+
+    <p class="pp">父元素</p>
+
+  
+
+   <iframe id='frame' src="demo_iframe.html" width="200" height="200"></iframe>
+  </div>
+
+  
+</body>
+</html>

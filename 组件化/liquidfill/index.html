@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+      .wrapper {
+        width: 800px;
+        height: 800px;
+        background-color: antiquewhite;
+        display: flex;
+      }
+      .waterBox {
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-color: rgb(255, 255, 255);
+        }
+      .waterBox:before {
+        content: '';
+        display: block;
+        width: 300px;
+        height: 300px;
+        border-radius: 24%;
+        position: absolute;
+        z-index: 2;
+        left: -20%;
+        top: 50%;
+        background-color: #06d9ff;
+        opacity: 0.5;
+        animation: waterAnimate 9s linear infinite;
+        -webkit-animation: waterAnimate 9s linear infinite;
+      }
+      @keyframes waterAnimate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+     }
+
+     @-moz-keyframes waterAnimate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+     }
+
+     @-o-keyframes waterAnimate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+     }
+  
+     @-webkit-keyframes waterAnimate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+     }
+
+
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="waterBox">
+    </div> 
+  </div>
+ 
+</body>
+</html>

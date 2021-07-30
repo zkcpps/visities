@@ -43,7 +43,6 @@ function combineDouble2 (arr1, arr2) {
         } else {
             arr1.push(arr2[j]);
         }
-
         j++;
     }
 
