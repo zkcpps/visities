@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>媒体查询</title>
+    <style>
+        /* 所有设备、宽度必须大于700、横屏，这个三个条件同时满足才为true */
+        @media all and (min-width:700px) and (orientation:landscape){
+            /* 注意这里我遇到了选择器权重的问题，所以在媒体查询样式选择器添加了一个media类 */
+            div.media{
+                background-color: yellow;
+            }
+        }
+        /* 所有设备、宽度必须大于800或者竖屏的时候，true */
+        @media all and (min-width:800px),(orientation:portrait){
+            div.media{
+                background-color: blue;
+            }
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+
+        div{
+            padding: 50px 0;
+            border: 1px solid #000000;
+        }
+        div::after{
+            content: "这是一个房子";
+        }
+        @media all and (max-width:1000px){
+            div.media{
+                background-color: #1177bb;
+            }
+            div.media::after{
+                content: "哇，好大的房子";
+            }
+        }
+        @media all and (max-width:800px){
+            div.media::after{
+                background-color: #aeaeae;
+            }
+            div.media::after{
+                content: "喔，房子变小了";
+            }
+        }
+        @media all and (max-width:500px){
+            div.media{
+                background-color: #46ae46;
+            }
+            div.media::after{
+                content: "哎，房子更小了";
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="media"></div>
+    
+</body>
+</html>

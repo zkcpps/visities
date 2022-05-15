@@ -25,3 +25,4 @@ interface runOptions {
 const options: runOptions = { program: "111", comandline: '110'}
 
 console.log(options);
+
