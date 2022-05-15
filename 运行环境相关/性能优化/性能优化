@@ -11,7 +11,7 @@
 让渲染更快
 1.CSS放在head，JS放在body最下面
 2.尽早开始执行JS，用DOMContentLoaded触发
-3.懒加载（图片懒加载，赏花加载更多）
+3.懒加载（图片懒加载，加载更多）
 4.对DOM查询进行缓存
 5.频繁DOM操作，合并到一起插入DOM结构
 6.节流throttle 和 防抖 debounce

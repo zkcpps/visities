@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from 'react';
 
 import  './index.css';
 
-
 let position = 0;
 export default (props) => {
 

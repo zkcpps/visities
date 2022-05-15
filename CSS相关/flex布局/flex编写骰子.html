@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>骰子</title>
+  <style>
+
+    .wrapper {
+      display: flex;
+    }
+
+    .box {
+      width: 150px;
+      height: 150px;
+      background-image: linear-gradient(72deg, #eee, #fff);
+      border-radius: 10px;
+      display: flex;
+    }
+
+    .item {
+      width: 40px;
+      height: 40px;
+      background-color: #000;
+      border-radius: 50%;
+    }
+  
+    .d11 {
+      justify-content: flex-start;
+    }
+
+    .d12 {
+      justify-content: center;
+    }
+  
+    .d13 {
+      justify-content: flex-end;
+    }
+  
+
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="box d11">
+      <div class="item"></div>
+    </div>
+    <div class="box d12">
+      <div class="item"></div>
+    </div>
+    <div class="box d13">
+      <div class="item"></div>
+    </div>
+  </div>
+   
+</body>
+</html>

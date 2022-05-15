@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>demo_iframe</title>
+
+  <script>
+    window.onload = function () {
+
+      // console.log("iframe");
+      // // console.log("parent",parent);
+      // // console.log("parent.document",parent.document);
+      // console.log(window.parent.document.getElementById("wrapper"));
+      function onclick() {
+         return function() {
+          window.parent.postMessage('message','*');
+         }
+      }
+      
+      document.getElementById("button1").onclick = onclick();
+
+    //   var a = 'SLSXID=?,SQPZYSS_CHECK=?,ZCZMWJ=?,ZCHPJH=?,GASCZCSJ=?,RELATION_ID=?,TRANSMAIN_ID=?,QTSM=?,BSQSY_RADIO=?,YPZCFL_RADIO=?,YPZCFL_SELECT=?,YPZCFL_TEXT=?,SL_NO=?,VERIFY_CODE=?,SQSX=?,QTSX_CFY=?,QTSX_FCFY=?,QTSX_YPTY=?,QTSX_QT=?,QTSX_QT_TEXT=?,YPJK_FT=?,YPJK_YX=?,YPJK_TB=?,YSQP_RADIO=?,SQSXFL_RADIO=?,SQSXFL_ZTREE=?,YPTYMC=?,YPTYMCLY=?,YWMCLDMC=?,HYPY=?,HXMC=?,QTMC=?,SPMC_RADIO=?,SPMC_TEXT=?,JX_ZGYD=?,JX_ZGYD_SELECT=?,JX_FZ=?,JX_FZ_SELECT=?,JX_TX=?,JX_TX_SELECT=?,GG=?,TPZ=?,BZ_ZJJC=?,BZ_BZGG=?,YPYXQ=?,CF_HX=?,CF_FL=?,CF_FL=?,CF_SF=?,YPBZ_BZ_RADIO=?,YPBZ_BZZN_RADIO=?,YPBZ_LY_RADIO=?,YPBZ_BZGZ_RADIO=?,YPBZ_LYZG_TEXT=?,YPBZ_LYJB_TEXT=?,YPBZ_LYJBC_TEXT=?,YPBZ_LYJBH_TEXT=?,YPBZ_LYQT_TEXT=?,SLQYP_RADIO=?,SLQYP_YPBH_TEXT=?,ZYSYZ_TEXT=?,BCSQ_NR_TEXT=?,BCSQ_NR_YXYJ=?,BCSQ_NR_FLCY=?,BCSQ_NR_LCYJ=?,BCSQ_NR_QT=?,TCXBC=?,YPZZ_YSQSLH=?,YPZZ_LCPJBH=?,YPZZ_YYPPZWH=?,YPZZ_YPBZBH=?,YPZZ_QT=?,ZLQK_YZGZL=?,ZLQK_YZGZL_HHW=?,ZLQK_YZGZL_GY=?,ZLQK_YZGZL_CF=?,ZLQK_YZGZL_QT=?,ZLQK_YZGZL_ZLH=?,ZLQK_YZGZL_ZLQR=?,ZLQK_YZGZL_ZLQDATE=?,ZLQK_YWGZL=?,ZLQK_YWGZL_ZLH=?,ZLQK_YWGZL_ZLQR=?,ZLQK_YWGZL_ZLQDATE=?,SFSJ_RADIO=?,SFSJ_RADIOY_MZ=?,SFSJ_RADIOY_JS=?,SFSJ_RADIOY_FS=?,SFSJ_RADIOY_YL=?,SFSJ_RADIOY_YP=?,SFSJ_LXPFH=?,ZYPZBH=?,ZYPZBH_ZZDATE=?,TPZXY_RADIO=?,TPZXY_ZZDATE=?,BCSQ_RADIO=?,QTJLGT_RADIO=?,QTJLGT_GTBH=?,BCSQ_SQS=?,BCSQ_CCH=?,BCSQ_CCB=?,BCSQ_CCH_DATE=?,BCSQ_CCB_DATE=?,BCSQ_CCH_YY=?,BCSQ_CCB_YY=?,SFAZ_RADIO=?,QTJLGT_YXZHYN_RADIO=?,QTJLGT_YXZHY_RADIO=?,JG1_YPZC_RADIO=?,JG1_SQRLX_RADIO=?,JG1_YPZC_BJG=?,JG1_ZWMC=?,JG1_YWMC=?,JG1_FDDB=?,JG1_FDDB_ZW=?,JG1_ZCDZ=?,JG1_GZHDQ=?,JG1_ZCSQFZR=?,JG1_ZCSQFZR_ZW=?,JG1_DH=?,JG1_CZ=?,JG1_DZXX=?,JG2_SCQY_RADIO=?,JG3_JWSCBZ_RADIO=?,JG4_JWSCDL_RADIO=?,JG4_JWSCDL_SZSF=?,JG4_JWSCDL_BJG=?,JG4_ZWMC=?,JG4_YWMC=?,JG4_TYSH=?,JG4_FDDB=?,JG4_FDDB_ZW=?,JG4_ZCDZ=?,JG4_ZCDZ_YB=?,JG4_TXDZ=?,JG4_TXDZ_YB=?,JG4_ZCSQFZR=?,JG4_ZCSQFZR_ZW=?,JG4_LXR=?,JG4_LXR_ZW=?,JG4_DH=?,JG4_CZ=?,JG4_DZXX=?,JG4_SJ=?,CJR=?,CJDW=?,CJSJ=?,XGR=?,XGDW=?,XGSJ=?,SFSC';
+
+    //   var map = {};
+    //   var key;
+    //   a.split('=?,').map(item => {
+    //       console.log(typeof item)
+    //        if(map.hasOwnProperty(item)) {
+    //          map[item] += 1;
+    //        } else {
+    //          map[item] = 1;
+    //        }
+    //        key = item;
+    //   })
+    //   console.log(map.hasOwnProperty(key))
+    //   console.log(map)
+      
+   }
+  </script>
+</head>
+<body>
+  <div>
+    <button id="button1">111</button>
+    1111
+  </div>
+</body>
+</html>
