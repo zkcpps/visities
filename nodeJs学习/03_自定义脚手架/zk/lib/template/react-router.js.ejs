@@ -1,0 +1,10 @@
+import { lazy } from 'react';
+
+const <%= data.lowerName %>Routers: object[] = [
+  {
+    path: '/<%= data.lowerName %>',
+    component: lazy(() => import('@/pages/<%= data.name %>')),
+  }
+];
+
+export default <%= data.lowerName %>Routers;
