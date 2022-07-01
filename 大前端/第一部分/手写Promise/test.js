@@ -17,19 +17,51 @@
 //   });
 
 const p1 = new Promise((resolve, rejected) => {
-  resolve("成功");
-  rejected("失败");
+  setTimeout(() => {
+    resolve("成功");
+  }, 2000);
+  // rejected("失败");
 });
 
-const p2 = new Promise((resolve, rejected) => {
-  rejected("失败");
-  resolve("成功");
+// const p2 = new Promise((resolve, rejected) => {
+//   rejected("失败");
+//   resolve("成功");
+// });
+
+p1.then(
+  (res) => {
+    console.log("res", res);
+    return 1;
+  },
+  (err) => {
+    console.log("err", err);
+  }
+).then((res) => {
+  console.log("res1", res);
 });
 
-const p3 = new Promise((resolve, reject) => {
-  throw new Error("错误");
-});
+// Promise.resolve()
+//   .then(() => {
+//     console.log(0);
+//     return Promise.resolve(4);
+//   })
+//   .then((res) => {
+//     console.log(res);
+//   });
 
-console.log("p1", p1);
-console.log("p2", p2);
-console.log("p3", p3);
+// Promise.resolve()
+//   .then(() => {
+//     console.log(1);
+//   })
+//   .then(() => {
+//     console.log(2);
+//   })
+//   .then(() => {
+//     console.log(3);
+//   })
+//   .then(() => {
+//     console.log(5);
+//   })
+//   .then(() => {
+//     console.log(6);
+//   });
