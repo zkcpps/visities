@@ -1,6 +1,12 @@
 const program = require("commander");
 
-const { createProject, addComponent, addPage, addStore } = require("./actions");
+const {
+  createProject,
+  addComponent,
+  addPage,
+  addBuleTable,
+  addBlueCustomTable,
+} = require("./actions");
 
 const createCommands = () => {
   // 创建项目指令
@@ -25,6 +31,21 @@ const createCommands = () => {
       addPage(name, program.dest || `src/pages/${name}`);
     });
 
+  program
+    .command("add-bule-table <name>")
+    .description("add blueTable page, 例如: zk add-bule-table Home [-d dest]")
+    .action((name) => {
+      addBuleTable(name, program.dest || `src/pages/${name}`);
+    });
+
+  program
+    .command("add-bule-custome-table <name>")
+    .description(
+      "add blueCustomTable page, 例如: zk add-bule-custome-table Home [-d dest]"
+    )
+    .action((name) => {
+      addBlueCustomTable(name, program.dest || `src/pages/${name}`);
+    });
   // program
   //   .command("addstore <name>")
   //   .description("add vue store, 例如: coderwhy addstore favor [-d dest]")

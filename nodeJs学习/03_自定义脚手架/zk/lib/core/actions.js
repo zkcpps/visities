@@ -65,6 +65,26 @@ const addPage = async (name, dest) => {
   );
 };
 
+// 增加小蓝标准列表页面
+const addBuleTable = async (name, dest) => {
+  handleEjsToFile(
+    name,
+    dest,
+    "../template/blue/base-list/protable.tsx.ejs",
+    `${name}.ts`
+  );
+};
+
+// 增加小蓝自定义列表页面
+const addBlueCustomTable = async (name, dest) => {
+  handleEjsToFile(
+    name,
+    dest,
+    "../template/blue/double-table-list/custom-table.tsx.ejs",
+    `${name}.ts`
+  );
+};
+
 // const addStore = async (name, dest) => {
 //   handleEjsToFile(name, dest, "../template/vue-store.js.ejs", "index.js");
 //   handleEjsToFile(name, dest, "../template/vue-types.js.ejs", "types.js");
@@ -75,4 +95,6 @@ module.exports = {
   addComponent,
   addPage,
   // addStore,
+  addBuleTable,
+  addBlueCustomTable,
 };

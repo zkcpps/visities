@@ -1,0 +1,128 @@
+import React, { useRef, useState } from 'react';
+import { Button } from 'antd';
+import type { ActionType, ProColumns } from '@ant-design/pro-table';
+import ProTable from '@ant-design/pro-table';
+import { getFamilyMemberList } from '@/services/familyManage';
+import FamilyDetailDrawer from './components/FamilyDetailDrawer';
+import TitleNav from '@/components/TitleNav';
+
+type TableListItem = any; 列表项目
+
+const <%= data.name %>: React.FC = () => {
+
+  const [total, setTotal] = useState<number>(0); // 家庭列表数目
+
+  const tableRef = useRef<ActionType>();
+
+  const searchFormColumns: ProColumns<TableListItem>[] = [
+    {
+      title: '注册成员',
+      width: 80,
+      dataIndex: 'name',
+      hideInTable: true,
+    },
+    {
+      title: '身份证号',
+      width: 80,
+      dataIndex: 'cardCode',
+      hideInTable: true,
+    },
+    {
+      title: '联系电话',
+      width: 80,
+      dataIndex: 'tel',
+      hideInTable: true,
+    },
+  ];
+
+  const columns: ProColumns<TableListItem>[] = [
+    {
+      title: '家庭ID',
+      dataIndex: 'familyId',
+      hideInSearch: true,
+      width: 200,
+    },
+    {
+      title: '注册成员',
+      dataIndex: 'name',
+      hideInSearch: true,
+    },
+    {
+      title: '家庭角色',
+      dataIndex: 'familyRelation',
+      hideInSearch: true,
+    },
+    {
+      title: '注册手机号',
+      dataIndex: 'tel',
+      hideInSearch: true,
+    },
+    {
+      title: '身份号',
+      dataIndex: 'cardCode',
+      hideInSearch: true,
+    },
+    {
+      title: '执行家庭',
+      dataIndex: 'isLong',
+      hideInSearch: true,
+      render: (text: any) => <p>{text === 0 ? '否' : '是'}</p>,
+    },
+    {
+      title: '家庭保单（份）',
+      dataIndex: 'policySize',
+      hideInSearch: true,
+    },
+    {
+      title: '家庭成员',
+      dataIndex: 'memberSize',
+      hideInSearch: true,
+    },
+    {
+      title: '操作',
+      hideInSearch: true,
+      fixed: 'right',
+      render: (_, record: any) => (
+        <>
+          <Button
+            type="link"
+            size="small"
+            onClick={() => {}}
+          >
+            查看详情
+          </Button>
+        </>
+      ),
+    },
+  ];
+
+  return (
+      <TitleNav title={'列表'}>
+        <ProTable
+          actionRef={tableRef}
+          headerTitle={`共${total}个成员`}
+          columns={[...columns, ...searchFormColumns]}
+          options={false}
+          search={{
+            collapsed: false,
+            collapseRender: () => null,
+          }}
+          request={async (params: Record<string, any>) => {
+            const { current, tel, cardCode, name, pageSize } = params;
+            // 编写接口获取数据
+
+            return {
+              data: []
+              // success 请返回 true，
+              // 不然 table 会停止解析数据，即使有数据
+              success: true,
+              // 不传会使用 data 的长度，如果是分页一定要传
+              total: 0,
+            };
+          }}
+        />
+      </TitleNav>
+  );
+};
+
+export default <%= data.name %>;
